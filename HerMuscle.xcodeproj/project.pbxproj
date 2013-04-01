@@ -20,6 +20,15 @@
 		55174D6216D6F1EF00FD48DD /* my day highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 55174D5E16D6F1EF00FD48DD /* my day highlighted.png */; };
 		552235E916AB4D8900CD23FA /* hermuscle icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 552235E116AB4D8900CD23FA /* hermuscle icon.jpg */; };
 		5538C23A16B9F69B00917192 /* LogInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5538C23916B9F69900917192 /* LogInView.m */; };
+		553A9DB616F66F8B0054C7D3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 553A9DB516F66F8A0054C7D3 /* libsqlite3.0.dylib */; };
+		553A9DBA1703E1D50054C7D3 /* twitter-bird-blue-on-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 553A9DB71703E1D50054C7D3 /* twitter-bird-blue-on-white.png */; };
+		553A9DBB1703E1D50054C7D3 /* twitter-bird-light-bgs.png in Resources */ = {isa = PBXBuildFile; fileRef = 553A9DB81703E1D50054C7D3 /* twitter-bird-light-bgs.png */; };
+		553A9DBC1703E1D50054C7D3 /* twitter-bird-white-on-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 553A9DB91703E1D50054C7D3 /* twitter-bird-white-on-blue.png */; };
+		553A9DBE1703E2A40054C7D3 /* ICON - Facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 553A9DBD1703E2A40054C7D3 /* ICON - Facebook.jpg */; };
+		553A9DC21703E8270054C7D3 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 553A9DBF1703E8260054C7D3 /* checkbox.png */; };
+		553A9DC31703E8270054C7D3 /* checkbox-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 553A9DC01703E8260054C7D3 /* checkbox-pressed.png */; };
+		553A9DC41703E8270054C7D3 /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 553A9DC11703E8260054C7D3 /* checkbox-checked.png */; };
+		553A9DC71703ED090054C7D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 553A9DC61703ED090054C7D3 /* Default-568h@2x.png */; };
 		5575E84216B070100005CF19 /* boxing.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5575E82916B070100005CF19 /* boxing.tiff */; };
 		5575E85516B070100005CF19 /* Weight Machine.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5575E83C16B070100005CF19 /* Weight Machine.tiff */; };
 		5575E85616B070100005CF19 /* Weights.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5575E83D16B070100005CF19 /* Weights.tiff */; };
@@ -69,11 +78,8 @@
 		55CC312E16EA9BF700CC61B3 /* Motivation5_Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55CC312016EA9BF700CC61B3 /* Motivation5_Default.jpg */; };
 		55CC313216EBF48200CC61B3 /* Muscle 57 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CC313116EBF48200CC61B3 /* Muscle 57 57.png */; };
 		55CC313416EBF4DB00CC61B3 /* Muscle 114 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CC313316EBF4DB00CC61B3 /* Muscle 114 114.png */; };
-		55CC313E16EBF5A700CC61B3 /* facebook_twitter_icons.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CC313516EBF5A100CC61B3 /* facebook_twitter_icons.png */; };
-		55CC313F16EBF5A700CC61B3 /* fb like.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55CC313616EBF5A200CC61B3 /* fb like.jpeg */; };
 		55CC314016EBF5A700CC61B3 /* goals highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CC313716EBF5A200CC61B3 /* goals highlighted.png */; };
 		55CC314116EBF5A700CC61B3 /* hermuscle icon black slogan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55CC313816EBF5A300CC61B3 /* hermuscle icon black slogan.jpg */; };
-		55CC314216EBF5A700CC61B3 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CC313916EBF5A300CC61B3 /* like.png */; };
 		55CC314316EBF5A700CC61B3 /* log highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CC313A16EBF5A500CC61B3 /* log highlighted.png */; };
 		55CC314416EBF5A700CC61B3 /* more highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CC313B16EBF5A500CC61B3 /* more highlighted.png */; };
 		55CC314516EBF5A700CC61B3 /* motivate highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CC313C16EBF5A500CC61B3 /* motivate highlighted.png */; };
@@ -101,6 +107,15 @@
 		552235E116AB4D8900CD23FA /* hermuscle icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hermuscle icon.jpg"; path = "../hermuscleicon/hermuscle icon.jpg"; sourceTree = "<group>"; };
 		5538C23816B9F69500917192 /* LogInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInView.h; sourceTree = "<group>"; };
 		5538C23916B9F69900917192 /* LogInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInView.m; sourceTree = "<group>"; };
+		553A9DB516F66F8A0054C7D3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		553A9DB71703E1D50054C7D3 /* twitter-bird-blue-on-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-bird-blue-on-white.png"; path = "App Icon Image/twitter-bird-blue-on-white.png"; sourceTree = SOURCE_ROOT; };
+		553A9DB81703E1D50054C7D3 /* twitter-bird-light-bgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-bird-light-bgs.png"; path = "App Icon Image/twitter-bird-light-bgs.png"; sourceTree = SOURCE_ROOT; };
+		553A9DB91703E1D50054C7D3 /* twitter-bird-white-on-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-bird-white-on-blue.png"; path = "App Icon Image/twitter-bird-white-on-blue.png"; sourceTree = SOURCE_ROOT; };
+		553A9DBD1703E2A40054C7D3 /* ICON - Facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ICON - Facebook.jpg"; path = "App Icon Image/ICON - Facebook.jpg"; sourceTree = "<group>"; };
+		553A9DBF1703E8260054C7D3 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox.png; path = ../../../Downloads/Checkbox/checkbox.png; sourceTree = "<group>"; };
+		553A9DC01703E8260054C7D3 /* checkbox-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkbox-pressed.png"; path = "../../../Downloads/Checkbox/checkbox-pressed.png"; sourceTree = "<group>"; };
+		553A9DC11703E8260054C7D3 /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkbox-checked.png"; path = "../../../Downloads/Checkbox/checkbox-checked.png"; sourceTree = "<group>"; };
+		553A9DC61703ED090054C7D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5575E82916B070100005CF19 /* boxing.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = boxing.tiff; path = "App Icon Image/boxing.tiff"; sourceTree = "<group>"; };
 		5575E83C16B070100005CF19 /* Weight Machine.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Weight Machine.tiff"; path = "App Icon Image/Weight Machine.tiff"; sourceTree = "<group>"; };
 		5575E83D16B070100005CF19 /* Weights.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Weights.tiff; path = "App Icon Image/Weights.tiff"; sourceTree = "<group>"; };
@@ -158,11 +173,8 @@
 		55CC312016EA9BF700CC61B3 /* Motivation5_Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Motivation5_Default.jpg; path = "../../../Pictures/iPhoto Library/Modified/2013/Mar 6, 2013/Motivation5_Default.jpg"; sourceTree = "<group>"; };
 		55CC313116EBF48200CC61B3 /* Muscle 57 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Muscle 57 57.png"; sourceTree = "<group>"; };
 		55CC313316EBF4DB00CC61B3 /* Muscle 114 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Muscle 114 114.png"; sourceTree = "<group>"; };
-		55CC313516EBF5A100CC61B3 /* facebook_twitter_icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_twitter_icons.png; path = "App Icon Image/facebook_twitter_icons.png"; sourceTree = "<group>"; };
-		55CC313616EBF5A200CC61B3 /* fb like.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fb like.jpeg"; path = "App Icon Image/fb like.jpeg"; sourceTree = "<group>"; };
 		55CC313716EBF5A200CC61B3 /* goals highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goals highlighted.png"; path = "App Icon Image/goals highlighted.png"; sourceTree = "<group>"; };
 		55CC313816EBF5A300CC61B3 /* hermuscle icon black slogan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hermuscle icon black slogan.jpg"; path = "App Icon Image/hermuscle icon black slogan.jpg"; sourceTree = "<group>"; };
-		55CC313916EBF5A300CC61B3 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = "App Icon Image/like.png"; sourceTree = "<group>"; };
 		55CC313A16EBF5A500CC61B3 /* log highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "log highlighted.png"; path = "App Icon Image/log highlighted.png"; sourceTree = "<group>"; };
 		55CC313B16EBF5A500CC61B3 /* more highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "more highlighted.png"; path = "App Icon Image/more highlighted.png"; sourceTree = "<group>"; };
 		55CC313C16EBF5A500CC61B3 /* motivate highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "motivate highlighted.png"; path = "App Icon Image/motivate highlighted.png"; sourceTree = "<group>"; };
@@ -175,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553A9DB616F66F8B0054C7D3 /* libsqlite3.0.dylib in Frameworks */,
 				55052A1616EFB49900ABA2B1 /* MessageUI.framework in Frameworks */,
 				55CC314816EBFCCB00CC61B3 /* libsqlite3.dylib in Frameworks */,
 				55A87A3116E7C66100FB7381 /* Accounts.framework in Frameworks */,
@@ -191,6 +204,8 @@
 		2515983F169DF2E50025FBFC = {
 			isa = PBXGroup;
 			children = (
+				553A9DC61703ED090054C7D3 /* Default-568h@2x.png */,
+				553A9DB516F66F8A0054C7D3 /* libsqlite3.0.dylib */,
 				55052A1516EFB49900ABA2B1 /* MessageUI.framework */,
 				55CC314716EBFCCB00CC61B3 /* libsqlite3.dylib */,
 				55CC313316EBF4DB00CC61B3 /* Muscle 114 114.png */,
@@ -264,26 +279,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		553A9DC51703E8350054C7D3 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				553A9DBF1703E8260054C7D3 /* checkbox.png */,
+				553A9DC01703E8260054C7D3 /* checkbox-pressed.png */,
+				553A9DC11703E8260054C7D3 /* checkbox-checked.png */,
+			);
+			name = CheckBox;
+			sourceTree = "<group>";
+		};
 		5583415016E6F9AD005942E2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				553A9DC51703E8350054C7D3 /* CheckBox */,
 				55A879ED16E7BF6000FB7381 /* Motivation */,
 				55174D4716D59B6B00FD48DD /* Muscle.tiff */,
 				5575E82916B070100005CF19 /* boxing.tiff */,
-				5583412F16E6F863005942E2 /* Motivation_Habit_default.jpg */,
+				553A9DBD1703E2A40054C7D3 /* ICON - Facebook.jpg */,
 				55174D5E16D6F1EF00FD48DD /* my day highlighted.png */,
 				5583411216E6CEF6005942E2 /* Weight Lost Chart.png */,
-				55CC313516EBF5A100CC61B3 /* facebook_twitter_icons.png */,
-				55CC313616EBF5A200CC61B3 /* fb like.jpeg */,
 				55CC313716EBF5A200CC61B3 /* goals highlighted.png */,
 				55CC313816EBF5A300CC61B3 /* hermuscle icon black slogan.jpg */,
-				55CC313916EBF5A300CC61B3 /* like.png */,
 				55CC313A16EBF5A500CC61B3 /* log highlighted.png */,
 				55CC313B16EBF5A500CC61B3 /* more highlighted.png */,
 				55CC313C16EBF5A500CC61B3 /* motivate highlighted.png */,
 				55CC313D16EBF5A600CC61B3 /* tortoise_hare02.gif */,
 				5575E83C16B070100005CF19 /* Weight Machine.tiff */,
 				5575E83D16B070100005CF19 /* Weights.tiff */,
+				553A9DB71703E1D50054C7D3 /* twitter-bird-blue-on-white.png */,
+				553A9DB81703E1D50054C7D3 /* twitter-bird-light-bgs.png */,
+				553A9DB91703E1D50054C7D3 /* twitter-bird-white-on-blue.png */,
 				552235E116AB4D8900CD23FA /* hermuscle icon.jpg */,
 			);
 			name = Images;
@@ -321,6 +347,7 @@
 				55A87A0816E7BF7F00FB7381 /* Motivation6_2.png */,
 				55A87A0916E7BF7F00FB7381 /* Motivation6_3.png */,
 				55A87A0A16E7BF7F00FB7381 /* Motivation6_4.png */,
+				5583412F16E6F863005942E2 /* Motivation_Habit_default.jpg */,
 				55A87A0B16E7BF7F00FB7381 /* Motivation6_5.png */,
 				55A87A0C16E7BF7F00FB7381 /* Motivation6_6.png */,
 				55A87A0D16E7BF7F00FB7381 /* Motivation6_Default.png */,
@@ -422,15 +449,20 @@
 				55CC312E16EA9BF700CC61B3 /* Motivation5_Default.jpg in Resources */,
 				55CC313216EBF48200CC61B3 /* Muscle 57 57.png in Resources */,
 				55CC313416EBF4DB00CC61B3 /* Muscle 114 114.png in Resources */,
-				55CC313E16EBF5A700CC61B3 /* facebook_twitter_icons.png in Resources */,
-				55CC313F16EBF5A700CC61B3 /* fb like.jpeg in Resources */,
 				55CC314016EBF5A700CC61B3 /* goals highlighted.png in Resources */,
 				55CC314116EBF5A700CC61B3 /* hermuscle icon black slogan.jpg in Resources */,
-				55CC314216EBF5A700CC61B3 /* like.png in Resources */,
 				55CC314316EBF5A700CC61B3 /* log highlighted.png in Resources */,
 				55CC314416EBF5A700CC61B3 /* more highlighted.png in Resources */,
 				55CC314516EBF5A700CC61B3 /* motivate highlighted.png in Resources */,
 				55CC314616EBF5A700CC61B3 /* tortoise_hare02.gif in Resources */,
+				553A9DBA1703E1D50054C7D3 /* twitter-bird-blue-on-white.png in Resources */,
+				553A9DBB1703E1D50054C7D3 /* twitter-bird-light-bgs.png in Resources */,
+				553A9DBC1703E1D50054C7D3 /* twitter-bird-white-on-blue.png in Resources */,
+				553A9DBE1703E2A40054C7D3 /* ICON - Facebook.jpg in Resources */,
+				553A9DC21703E8270054C7D3 /* checkbox.png in Resources */,
+				553A9DC31703E8270054C7D3 /* checkbox-pressed.png in Resources */,
+				553A9DC41703E8270054C7D3 /* checkbox-checked.png in Resources */,
+				553A9DC71703ED090054C7D3 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

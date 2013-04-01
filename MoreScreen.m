@@ -16,8 +16,8 @@
 
 -(IBAction)FacebookAlert:(id)sender{
     UIAlertView *alert = [[UIAlertView alloc]
-                          initWithTitle:@"Facebook Options"
-                          message:@"Share your results and experience!"
+                          initWithTitle:nil
+                          message:nil
                           delegate:self
                           cancelButtonTitle:@"Cancel"
                           otherButtonTitles:@"Post to Facebook",@"Like us on Facebook", nil];
@@ -37,8 +37,8 @@
 }
 -(IBAction)TwitterAlert:(id)sender{
     UIAlertView *alert = [[UIAlertView alloc]
-                          initWithTitle:@"Twitter Options"
-                          message:@"Share your results and experience!"
+                          initWithTitle:nil
+                          message:nil
                           delegate:self
                           cancelButtonTitle:@"Cancel"
                           otherButtonTitles:@"Post to Twitter",@"Follow us on Twitter", nil];

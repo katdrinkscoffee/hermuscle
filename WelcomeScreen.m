@@ -1,18 +1,18 @@
 //
-//  SecondView.m
+//  WelcomeScreen.m
 //  HerMuscle
 //
-//  Created by Katarina Djordjevic on 1/14/13.
+//  Created by Katarina Djordjevic on 3/5/13.
 //
 //
 
-#import "SecondView.h"
+#import "WelcomeScreen.h"
 
-@interface SecondView ()
+@interface WelcomeScreen ()
 
 @end
 
-@implementation SecondView
+@implementation WelcomeScreen
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
