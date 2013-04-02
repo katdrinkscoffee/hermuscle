@@ -1586,6 +1586,70 @@
         <image name="tortoise_hare02.gif" width="150" height="86"/>
         <image name="twitter-bird-light-bgs.png" width="300" height="300"/>
     </resources>
+    <classes>
+        <class className="AddWorkoutScreen" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AddWorkoutScreen.h"/>
+        </class>
+        <class className="CreateAccountScreen" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CreateAccountScreen.h"/>
+            <relationships>
+                <relationship kind="action" name="ReturnKeyButton:"/>
+            </relationships>
+        </class>
+        <class className="DashboardScreen" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DashboardScreen.h"/>
+            <relationships>
+                <relationship kind="action" name="WeekStepper:"/>
+                <relationship kind="action" name="checkboxButtonDay1:"/>
+                <relationship kind="action" name="checkboxButtonDay2:"/>
+                <relationship kind="action" name="checkboxButtonDay3:"/>
+                <relationship kind="action" name="checkboxButtonDay4:"/>
+                <relationship kind="action" name="checkboxButtonDay5:"/>
+                <relationship kind="action" name="checkboxButtonDay6:"/>
+                <relationship kind="action" name="checkboxButtonDay7:"/>
+                <relationship kind="outlet" name="checkboxButton1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="checkboxButton2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="checkboxButton3" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="checkboxButton4" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="checkboxButton5" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="checkboxButton6" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="checkboxButton7" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="ourStepper" candidateClass="UIStepper"/>
+                <relationship kind="outlet" name="stepperValueLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MoreScreen" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MoreScreen.h"/>
+            <relationships>
+                <relationship kind="action" name="AboutAlert:"/>
+                <relationship kind="action" name="FacebookAlert:"/>
+                <relationship kind="action" name="LikeOnFacebook:"/>
+                <relationship kind="action" name="OpenMail:"/>
+                <relationship kind="action" name="PostToFacebook:"/>
+                <relationship kind="action" name="PostToTwitter:"/>
+                <relationship kind="action" name="TwitterAlert:"/>
+            </relationships>
+        </class>
+        <class className="MotivationScreen" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MotivationScreen.h"/>
+            <relationships>
+                <relationship kind="action" name="randomimagebutton"/>
+                <relationship kind="outlet" name="imageview" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="SignInScreen" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SignInScreen.h"/>
+            <relationships>
+                <relationship kind="action" name="ReturnKeyButton:"/>
+            </relationships>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        </class>
+        <class className="WelcomeScreen" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WelcomeScreen.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
