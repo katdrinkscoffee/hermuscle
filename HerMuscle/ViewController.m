@@ -15,7 +15,7 @@
 @implementation ViewController
 
 - (IBAction)ExecuteSegue {
-    [self performSegueWithIdentifier:@"ViewControllerToProfileView" sender:self];
+    [self performSegueWithIdentifier:@"ViewControllerToWelcomeScreen" sender:self];
 }
 
 
