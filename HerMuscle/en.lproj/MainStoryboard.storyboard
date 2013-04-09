@@ -35,95 +35,6 @@
             </objects>
             <point key="canvasLocation" x="77" y="34"/>
         </scene>
-        <!--Sign In Screen - ProfileToDashboard-->
-        <scene sceneID="xvA-PK-BU2">
-            <objects>
-                <viewController storyboardIdentifier="LogInViewToDashboard" title="ProfileToDashboard" id="XKY-JR-TMy" customClass="SignInScreen" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="p03-ci-Y31">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="center" minimumFontSize="17" clearButtonMode="always" id="4fV-F4-HUD">
-                                <rect key="frame" x="49" y="98" width="222" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
-                                <connections>
-                                    <action selector="ReturnKeyButton:" destination="XKY-JR-TMy" eventType="editingDidEndOnExit" id="w9B-Nh-7Du"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" id="1gJ-8R-VsZ">
-                                <rect key="frame" x="49" y="129" width="222" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="ReturnKeyButton:" destination="XKY-JR-TMy" eventType="editingDidEndOnExit" id="ojo-Mm-VV6"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="th2-Tg-vNp">
-                                <rect key="frame" x="49" y="194" width="222" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Sign in">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="PGB-PF-1c3">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.13725490200000001" green="0.1960784314" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.13725490200000001" green="0.1960784314" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <items>
-                                    <navigationItem title="Sign in" id="SQY-O4-QJb">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="U5e-nf-Qck">
-                                            <color key="tintColor" red="0.13725490200000001" green="0.1960784314" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="boxing.tiff" id="F6h-tw-kjo">
-                                <rect key="frame" x="162" y="398" width="39" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Weights.tiff" id="ddT-vL-SFP">
-                                <rect key="frame" x="199" y="398" width="46" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Weight Machine.tiff" id="cmw-PT-13D">
-                                <rect key="frame" x="240" y="366" width="65" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f2k-3g-IhM">
-                                <rect key="frame" x="49" y="231" width="222" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="forgot password?">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="Email" destination="4fV-F4-HUD" id="Hxc-Rh-YHV"/>
-                        <outlet property="Password" destination="1gJ-8R-VsZ" id="HBk-sY-x7a"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BWu-gZ-hfT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1834" y="-11"/>
-        </scene>
         <!--Welcome Screen-->
         <scene sceneID="Cvf-Wl-nrq">
             <objects>
@@ -201,77 +112,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tpv-Yj-vhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="524" y="34"/>
-        </scene>
-        <!--Create Account Screen-->
-        <scene sceneID="UGa-uE-RtJ">
-            <objects>
-                <viewController id="Pdg-x5-RTd" customClass="CreateAccountScreen" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="P2Q-HU-7cD">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="center" minimumFontSize="17" clearButtonMode="always" id="XqY-nE-UWE">
-                                <rect key="frame" x="49" y="98" width="222" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
-                                <connections>
-                                    <action selector="ReturnKeyButton:" destination="Pdg-x5-RTd" eventType="editingDidEndOnExit" id="eaW-QC-n5y"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" id="ExB-jx-Dcx">
-                                <rect key="frame" x="49" y="129" width="222" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="ReturnKeyButton:" destination="Pdg-x5-RTd" eventType="editingDidEndOnExit" id="OEs-Kc-11t"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hVB-6p-dYa">
-                                <rect key="frame" x="49" y="194" width="222" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Submit">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="boxing.tiff" id="l8y-EO-9ne">
-                                <rect key="frame" x="157" y="398" width="39" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Weights.tiff" id="Egq-nD-2Zo">
-                                <rect key="frame" x="194" y="398" width="46" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Weight Machine.tiff" id="3F5-Bb-ofA">
-                                <rect key="frame" x="235" y="366" width="65" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="wcg-ae-zeL">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.13725490200000001" green="0.1960784314" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.13725490200000001" green="0.1960784314" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <items>
-                                    <navigationItem title="Create an Account" id="rJN-f7-qfJ">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="sZe-Pl-602"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qyr-cg-uvy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1487" y="-11"/>
         </scene>
         <!--Dashboard Screen-->
         <scene sceneID="mx1-Cu-tkk">
@@ -907,7 +747,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m7V-vP-ppK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="506" y="1239"/>
+            <point key="canvasLocation" x="909" y="1229"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7EC-bE-ZAx">
@@ -1075,7 +915,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9F5-pM-hvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="77" y="1239"/>
+            <point key="canvasLocation" x="550" y="1236"/>
         </scene>
         <!--Motivation Screen-->
         <scene sceneID="5D8-hX-qK0">
@@ -1207,7 +1047,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="997" y="629"/>
+            <point key="canvasLocation" x="68" y="1246"/>
         </scene>
         <!--Add Workout Screen-->
         <scene sceneID="neh-KJ-lRh">
@@ -1341,12 +1181,6 @@
                 <relationship kind="outlet" name="Webview" candidateClass="UIWebView"/>
             </relationships>
         </class>
-        <class className="CreateAccountScreen" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CreateAccountScreen.h"/>
-            <relationships>
-                <relationship kind="action" name="ReturnKeyButton:"/>
-            </relationships>
-        </class>
         <class className="DashboardScreen" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DashboardScreen.h"/>
             <relationships>
@@ -1386,12 +1220,6 @@
                 <relationship kind="outlet" name="imageview" candidateClass="UIImageView"/>
             </relationships>
         </class>
-        <class className="SignInScreen" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SignInScreen.h"/>
-            <relationships>
-                <relationship kind="action" name="ReturnKeyButton:"/>
-            </relationships>
-        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
         </class>
@@ -1408,10 +1236,10 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Xqa-6b-xRS"/>
-        <segue reference="GiM-Wc-WRv"/>
-        <segue reference="lAP-bJ-NDb"/>
+        <segue reference="1Cg-f5-kf0"/>
         <segue reference="tH5-pW-pKP"/>
+        <segue reference="lAP-bJ-NDb"/>
         <segue reference="wqD-0x-mRN"/>
+        <segue reference="GiM-Wc-WRv"/>
     </inferredMetricsTieBreakers>
 </document>
