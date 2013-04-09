@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WelcomeScreen : UIViewController
+@interface WelcomeScreen : UIViewController{
+
+
+    IBOutlet UIButton *signInWithTwitterOrFacebook;
+    
+}
+
+@property (weak, nonatomic) IBOutlet UIButton *signInWithTwitterOrFacebook;
 
 @end
+

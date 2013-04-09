@@ -28,6 +28,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"Week1.pdf" ofType:@"pdf"];
+//    NSURL *url = [NSURL fileURLWithPath:path];
+//    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+//    [Webview loadRequest:request];
+//    [Webview setScalesPageToFit:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,3 +42,5 @@
 }
 
 @end
+
+

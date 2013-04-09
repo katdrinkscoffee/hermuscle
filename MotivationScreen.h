@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MotivationScreen : UIViewController{
+    
     IBOutlet UIImageView *imageview;
 }
 -(IBAction)randomimagebutton;

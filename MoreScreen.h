@@ -14,9 +14,6 @@
 @interface MoreScreen : UIViewController{
     SLComposeViewController *mySLComposerSheet;
 }
-- (IBAction)PostToFacebook:(id)sender;
-- (IBAction)PostToTwitter:(id)sender;
-- (IBAction)LikeOnFacebook:(id)sender;
 
 -(IBAction)FacebookAlert:(id)sender;
 -(IBAction)TwitterAlert:(id)sender;

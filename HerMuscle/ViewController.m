@@ -12,10 +12,7 @@
 
 @end
 
-@implementation ViewController
-
-- (IBAction)ExecuteSegue {
-    [self performSegueWithIdentifier:@"ViewControllerToWelcomeScreen" sender:self];
+@implementation ViewController{
 }
 
 
@@ -37,3 +34,6 @@
 }
 
 @end
+
+
+

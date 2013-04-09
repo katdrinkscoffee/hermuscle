@@ -13,7 +13,7 @@
 @end
 
 @implementation DashboardScreen
-
+@synthesize ProgressBar;
 
 - (IBAction)WeekStepper:(id)sender
 {
@@ -40,6 +40,7 @@
 {
     [self setOurStepper:nil];
     [self setStepperValueLabel:nil];
+    [self setProgressBar:nil];
     [super viewDidUnload];
 }
 
@@ -70,66 +71,74 @@
 
 - (IBAction)checkboxButtonDay1:(id)sender{
 	if (checkboxSelected == 0){
-		[checkboxButton1 setSelected:YES];
+		[checkboxButtonDay1 setSelected:YES];
 		checkboxSelected = 1;
+        ProgressBar.progress=ProgressBar.progress+0.1;
 	} else {
-		[checkboxButton1 setSelected:NO];
+		[checkboxButtonDay1 setSelected:NO];
 		checkboxSelected = 0;
 	}
 }
 - (IBAction)checkboxButtonDay2:(id)sender{
 	if (checkboxSelected == 0){
-		[checkboxButton2 setSelected:YES];
+		[checkboxButtonDay2 setSelected:YES];
 		checkboxSelected = 1;
+        ProgressBar.progress=ProgressBar.progress+0.1;
 	} else {
-		[checkboxButton2 setSelected:NO];
+		[checkboxButtonDay2 setSelected:NO];
 		checkboxSelected = 0;
+        
 	}
 }
 - (IBAction)checkboxButtonDay3:(id)sender{
 	if (checkboxSelected == 0){
-		[checkboxButton3 setSelected:YES];
+		[checkboxButtonDay3 setSelected:YES];
 		checkboxSelected = 1;
 	} else {
-		[checkboxButton3 setSelected:NO];
+		[checkboxButtonDay3 setSelected:NO];
 		checkboxSelected = 0;
+        ProgressBar.progress=ProgressBar.progress-0.1;
 	}
 }
 - (IBAction)checkboxButtonDay4:(id)sender{
 	if (checkboxSelected == 0){
-		[checkboxButton4 setSelected:YES];
+		[checkboxButtonDay4 setSelected:YES];
 		checkboxSelected = 1;
+        ProgressBar.progress=ProgressBar.progress+0.1;
 	} else {
-		[checkboxButton4 setSelected:NO];
+		[checkboxButtonDay4 setSelected:NO];
 		checkboxSelected = 0;
 	}
 }
 - (IBAction)checkboxButtonDay5:(id)sender{
 	if (checkboxSelected == 0){
-		[checkboxButton5 setSelected:YES];
+		[checkboxButtonDay5 setSelected:YES];
 		checkboxSelected = 1;
+        ProgressBar.progress=ProgressBar.progress+0.1;
 	} else {
-		[checkboxButton5 setSelected:NO];
+		[checkboxButtonDay5 setSelected:NO];
 		checkboxSelected = 0;
 	}
 }
-
 - (IBAction)checkboxButtonDay6:(id)sender{
 	if (checkboxSelected == 0){
-		[checkboxButton6 setSelected:YES];
+		[checkboxButtonDay6 setSelected:YES];
 		checkboxSelected = 1;
+        ProgressBar.progress=ProgressBar.progress+0.1;
 	} else {
-		[checkboxButton6 setSelected:NO];
+		[checkboxButtonDay6 setSelected:NO];
 		checkboxSelected = 0;
 	}
 }
 - (IBAction)checkboxButtonDay7:(id)sender{
 	if (checkboxSelected == 0){
-		[checkboxButton7 setSelected:YES];
+		[checkboxButtonDay7 setSelected:YES];
 		checkboxSelected = 1;
+        ProgressBar.progress=ProgressBar.progress+0.1;
 	} else {
-		[checkboxButton7 setSelected:NO];
+		[checkboxButtonDay7 setSelected:NO];
 		checkboxSelected = 0;
+        ProgressBar.progress=ProgressBar.progress-0.1;
 	}
 }
 

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddWorkoutScreen : UIViewController
+@interface AddWorkoutScreen : UIViewController {
+    IBOutlet UIWebView *Webview;
+}
 
 @end

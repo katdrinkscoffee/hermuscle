@@ -10,16 +10,18 @@
 
 @interface DashboardScreen : UIViewController{
     
-BOOL checkboxSelected;
-IBOutlet UIButton *checkboxButton1;
-IBOutlet UIButton *checkboxButton2;
-IBOutlet UIButton *checkboxButton3;
-IBOutlet UIButton *checkboxButton4;
-IBOutlet UIButton *checkboxButton5;
-IBOutlet UIButton *checkboxButton6;
-IBOutlet UIButton *checkboxButton7;
-
+    BOOL checkboxSelected;
+	IBOutlet UIButton *checkboxButtonDay1;
+    IBOutlet UIButton *checkboxButtonDay2;
+    IBOutlet UIButton *checkboxButtonDay3;
+    IBOutlet UIButton *checkboxButtonDay4;
+    IBOutlet UIButton *checkboxButtonDay5;
+    IBOutlet UIButton *checkboxButtonDay6;
+    IBOutlet UIButton *checkboxButtonDay7;
 }
+
+@property (weak, nonatomic) IBOutlet UIProgressView *ProgressBar;
+
 @property (strong, nonatomic) IBOutlet UIStepper *ourStepper;
 @property (strong, nonatomic) IBOutlet UILabel *stepperValueLabel;
 - (IBAction)WeekStepper:(id)sender;

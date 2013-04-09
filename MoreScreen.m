@@ -9,6 +9,7 @@
 #import "MoreScreen.h"
 
 @interface MoreScreen ()
+<MFMailComposeViewControllerDelegate>
 
 @end
 
@@ -78,7 +79,7 @@
             [mailer setSubject:@"Suggestions from a fan!"];
             NSArray *toRecipients = [NSArray arrayWithObjects:@"hermuscle.app@gmail.com", nil];
             [mailer setToRecipients:toRecipients];
-            UIImage *myImage = [UIImage imageNamed:@"Muscle.tiff"];
+            UIImage *myImage = [UIImage imageNamed:@"Muscle.png"];
             NSString *emailBody = @"Here is how you can improve:";
             [mailer setMessageBody:emailBody isHTML:NO];
             [self presentModalViewController:mailer animated:YES];
