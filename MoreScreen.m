@@ -2,13 +2,14 @@
 //  MoreScreen.m
 //  HerMuscle
 //
-//  Created by Katarina Djordjevic on 3/5/13.
-//
+//  Created by Katarina Djordjevic on 1/9/13.
+//  Copyright (c) 2013 DJ Products All rights reserved.
 //
 
 #import "MoreScreen.h"
 
 @interface MoreScreen ()
+
 <MFMailComposeViewControllerDelegate>
 
 @end
@@ -70,30 +71,30 @@
     [alert show];
 }
 
-- (IBAction)OpenMail:(id)sender
-    {
-        if ([MFMailComposeViewController canSendMail])
-        {
-            MFMailComposeViewController *mailer = [[MFMailComposeViewController alloc] init];
-            mailer.mailComposeDelegate = self;
-            [mailer setSubject:@"Suggestions from a fan!"];
-            NSArray *toRecipients = [NSArray arrayWithObjects:@"hermuscle.app@gmail.com", nil];
-            [mailer setToRecipients:toRecipients];
-            UIImage *myImage = [UIImage imageNamed:@"Muscle.png"];
-            NSString *emailBody = @"Here is how you can improve:";
-            [mailer setMessageBody:emailBody isHTML:NO];
-            [self presentModalViewController:mailer animated:YES];
-        }
-        else
-        {
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Failure"
-                                                            message:@"Your device doesn't this function"
-                                                           delegate:nil
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles: nil];
-            [alert show];
-        }
+- (IBAction)OpenMail {
+    MFMailComposeViewController *composer = [[MFMailComposeViewController alloc] init];
+    [composer setMailComposeDelegate:self];
+    if ([MFMailComposeViewController canSendMail]) {
+        [composer setToRecipients:[NSArray arrayWithObjects:@"hermuscle.app@gmail.com", nil]];
+        [composer setSubject:@"Suggestion from fan!"];
+        [composer setMessageBody:@"message here" isHTML:NO];
+        [composer setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+        [self presentModalViewController:composer animated:YES];
     }
+}
+-(void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
+    if (error) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"error"
+                                                        message:[NSString stringWithFormat:@"error %@", [error description]]
+                                                       delegate:nil cancelButtonTitle:@"dismiss" otherButtonTitles:nil, nil];
+        [alert show];
+        [self dismissModalViewControllerAnimated:YES];
+    }
+    else {
+        [self dismissModalViewControllerAnimated:YES];
+    }
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -114,5 +115,4 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-@end
+@end    

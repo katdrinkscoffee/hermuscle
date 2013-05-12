@@ -2,8 +2,8 @@
 //  ViewController.h
 //  HerMuscle
 //
-//  Created by Jose Torres on 1/9/13.
-//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
+//  Created by Katarina Djordjevic on 1/9/13.
+//  Copyright (c) 2013 DJ Products. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

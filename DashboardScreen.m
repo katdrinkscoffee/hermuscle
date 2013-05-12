@@ -2,8 +2,8 @@
 //  DashboardScreen.m
 //  HerMuscle
 //
-//  Created by Katarina Djordjevic on 3/5/13.
-//
+//  Created by Katarina Djordjevic on 1/9/13.
+//  Copyright (c) 2013 DJ Products All rights reserved.
 //
 
 #import "DashboardScreen.h"
@@ -14,10 +14,11 @@
 
 @implementation DashboardScreen
 @synthesize ProgressBar;
+@synthesize ourStepper;
 
 - (IBAction)WeekStepper:(id)sender
 {
-    double stepperValue = _ourStepper.value;
+    double stepperValue = ourStepper.value;
     self.stepperValueLabel.text = [NSString stringWithFormat:@"%.f", stepperValue];
 }
 - (void)viewDidLoad
@@ -29,7 +30,7 @@
     self.ourStepper.wraps = YES;
     self.ourStepper.autorepeat = YES;
     self.ourStepper.continuous = YES;
-    self.stepperValueLabel.text = [NSString stringWithFormat:@"%.f", _ourStepper.value];
+    self.stepperValueLabel.text = [NSString stringWithFormat:@"%.f", ourStepper.value];
 
     checkboxSelected = 0;
     [super viewDidLoad];

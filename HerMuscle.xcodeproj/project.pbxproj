@@ -41,8 +41,28 @@
 		5583415F16E6FA87005942E2 /* MotivationScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5583415E16E6FA87005942E2 /* MotivationScreen.m */; };
 		5583416216E6FABB005942E2 /* GoalsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5583416116E6FABB005942E2 /* GoalsScreen.m */; };
 		5583416516E6FAD3005942E2 /* MoreScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5583416416E6FAD3005942E2 /* MoreScreen.m */; };
+		559863BC174044B800BBA65C /* action-eating.png in Resources */ = {isa = PBXBuildFile; fileRef = 559863B8174044B800BBA65C /* action-eating.png */; };
+		559863BD174044B800BBA65C /* action-location.png in Resources */ = {isa = PBXBuildFile; fileRef = 559863B9174044B800BBA65C /* action-location.png */; };
+		559863BE174044B800BBA65C /* action-people.png in Resources */ = {isa = PBXBuildFile; fileRef = 559863BA174044B800BBA65C /* action-people.png */; };
+		559863BF174044B800BBA65C /* action-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 559863BB174044B800BBA65C /* action-photo.png */; };
+		559863C5174044E800BBA65C /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 559863C0174044E800BBA65C /* facebook.png */; };
+		559863C6174044E800BBA65C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 559863C1174044E800BBA65C /* Icon-72.png */; };
+		559863C7174044E800BBA65C /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 559863C2174044E800BBA65C /* Icon-72@2x.png */; };
+		559863C9174044E800BBA65C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 559863C4174044E800BBA65C /* Icon@2x.png */; };
+		559863CB1740507000BBA65C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559863CA1740506F00BBA65C /* AdSupport.framework */; };
+		559863CD1740514E00BBA65C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559863CC1740514E00BBA65C /* AddressBook.framework */; };
+		559863CF1740515800BBA65C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559863CE1740515800BBA65C /* CoreLocation.framework */; };
+		559863D21740518B00BBA65C /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 559863D01740518B00BBA65C /* FBUserSettingsViewResources.bundle */; };
+		559863D31740518B00BBA65C /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 559863D11740518B00BBA65C /* FacebookSDKResources.bundle */; };
+		559863D51740567200BBA65C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 559863D41740567200BBA65C /* libsqlite3.dylib */; };
+		559863D71740570100BBA65C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559863D61740570100BBA65C /* Security.framework */; };
 		55A87A2F16E7C63E00FB7381 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A87A2E16E7C63D00FB7381 /* Social.framework */; };
 		55A87A3116E7C66100FB7381 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A87A3016E7C66100FB7381 /* Accounts.framework */; };
+		55CBE5E0172466E000222D11 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CBE5DF172466E000222D11 /* FacebookSDK.framework */; };
+		55CBE5EC17246BB700222D11 /* FB-logIn-Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CBE5E817246BB700222D11 /* FB-logIn-Icon-72.png */; };
+		55CBE5ED17246BB700222D11 /* FB-logIn-Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CBE5E917246BB700222D11 /* FB-logIn-Icon-72@2x.png */; };
+		55CBE5EE17246BB700222D11 /* FB-logIn-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CBE5EA17246BB700222D11 /* FB-logIn-Icon.png */; };
+		55CBE5EF17246BB700222D11 /* FB-lobIn-Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CBE5EB17246BB700222D11 /* FB-lobIn-Icon@2x.png */; };
 		55EA6F4A170BE86B00ADADEB /* facebook_twitter_icons.png in Resources */ = {isa = PBXBuildFile; fileRef = 55EA6EB0170BE86B00ADADEB /* facebook_twitter_icons.png */; };
 		55EA6F4E170BE86B00ADADEB /* hermuscle icon black slogan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55EA6EB4170BE86B00ADADEB /* hermuscle icon black slogan.jpg */; };
 		55EA6F4F170BE86B00ADADEB /* hermuscle icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55EA6EB5170BE86B00ADADEB /* hermuscle icon.jpg */; };
@@ -149,8 +169,28 @@
 		5583416116E6FABB005942E2 /* GoalsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalsScreen.m; path = ../GoalsScreen.m; sourceTree = "<group>"; };
 		5583416316E6FAD3005942E2 /* MoreScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreScreen.h; path = ../MoreScreen.h; sourceTree = "<group>"; };
 		5583416416E6FAD3005942E2 /* MoreScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreScreen.m; path = ../MoreScreen.m; sourceTree = "<group>"; };
+		559863B8174044B800BBA65C /* action-eating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-eating.png"; sourceTree = "<group>"; };
+		559863B9174044B800BBA65C /* action-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-location.png"; sourceTree = "<group>"; };
+		559863BA174044B800BBA65C /* action-people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-people.png"; sourceTree = "<group>"; };
+		559863BB174044B800BBA65C /* action-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-photo.png"; sourceTree = "<group>"; };
+		559863C0174044E800BBA65C /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		559863C1174044E800BBA65C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		559863C2174044E800BBA65C /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		559863C4174044E800BBA65C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		559863CA1740506F00BBA65C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		559863CC1740514E00BBA65C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		559863CE1740515800BBA65C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		559863D01740518B00BBA65C /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		559863D11740518B00BBA65C /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		559863D41740567200BBA65C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		559863D61740570100BBA65C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		55A87A2E16E7C63D00FB7381 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		55A87A3016E7C66100FB7381 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		55CBE5DF172466E000222D11 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		55CBE5E817246BB700222D11 /* FB-logIn-Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FB-logIn-Icon-72.png"; sourceTree = "<group>"; };
+		55CBE5E917246BB700222D11 /* FB-logIn-Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FB-logIn-Icon-72@2x.png"; sourceTree = "<group>"; };
+		55CBE5EA17246BB700222D11 /* FB-logIn-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FB-logIn-Icon.png"; sourceTree = "<group>"; };
+		55CBE5EB17246BB700222D11 /* FB-lobIn-Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FB-lobIn-Icon@2x.png"; sourceTree = "<group>"; };
 		55EA6EB0170BE86B00ADADEB /* facebook_twitter_icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_twitter_icons.png; sourceTree = "<group>"; };
 		55EA6EB4170BE86B00ADADEB /* hermuscle icon black slogan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hermuscle icon black slogan.jpg"; sourceTree = "<group>"; };
 		55EA6EB5170BE86B00ADADEB /* hermuscle icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hermuscle icon.jpg"; sourceTree = "<group>"; };
@@ -201,12 +241,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559863D71740570100BBA65C /* Security.framework in Frameworks */,
+				559863D51740567200BBA65C /* libsqlite3.dylib in Frameworks */,
+				559863CF1740515800BBA65C /* CoreLocation.framework in Frameworks */,
+				559863CD1740514E00BBA65C /* AddressBook.framework in Frameworks */,
+				559863CB1740507000BBA65C /* AdSupport.framework in Frameworks */,
 				55052A1616EFB49900ABA2B1 /* MessageUI.framework in Frameworks */,
 				55A87A3116E7C66100FB7381 /* Accounts.framework in Frameworks */,
 				55A87A2F16E7C63E00FB7381 /* Social.framework in Frameworks */,
 				2515984F169DF2E60025FBFC /* UIKit.framework in Frameworks */,
 				25159851169DF2E60025FBFC /* Foundation.framework in Frameworks */,
 				25159853169DF2E60025FBFC /* CoreGraphics.framework in Frameworks */,
+				55CBE5E0172466E000222D11 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +286,14 @@
 		2515984D169DF2E60025FBFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				559863D61740570100BBA65C /* Security.framework */,
+				559863D41740567200BBA65C /* libsqlite3.dylib */,
+				559863CE1740515800BBA65C /* CoreLocation.framework */,
+				559863CC1740514E00BBA65C /* AddressBook.framework */,
+				559863D01740518B00BBA65C /* FBUserSettingsViewResources.bundle */,
+				559863D11740518B00BBA65C /* FacebookSDKResources.bundle */,
+				559863CA1740506F00BBA65C /* AdSupport.framework */,
+				55CBE5DF172466E000222D11 /* FacebookSDK.framework */,
 				55052A1516EFB49900ABA2B1 /* MessageUI.framework */,
 				55A87A3016E7C66100FB7381 /* Accounts.framework */,
 				55A87A2E16E7C63D00FB7381 /* Social.framework */,
@@ -305,33 +359,101 @@
 			name = CheckBox;
 			sourceTree = "<group>";
 		};
+		55CBE5E11724684100222D11 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55EA6EB4170BE86B00ADADEB /* hermuscle icon black slogan.jpg */,
+				55EA6EB5170BE86B00ADADEB /* hermuscle icon.jpg */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		55CBE5E21724684D00222D11 /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				55EA6F3A170BE86B00ADADEB /* Muscle.png */,
+				55CBE5E817246BB700222D11 /* FB-logIn-Icon-72.png */,
+				55CBE5E917246BB700222D11 /* FB-logIn-Icon-72@2x.png */,
+				55CBE5EA17246BB700222D11 /* FB-logIn-Icon.png */,
+				55CBE5EB17246BB700222D11 /* FB-lobIn-Icon@2x.png */,
+			);
+			name = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		55CBE5E31724686200222D11 /* DashboardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				55EA6F3C170BE86B00ADADEB /* my day highlighted.png */,
+				556C62D8170BEB9100BAD0A8 /* tortoise_hare02.gif */,
+				551343C717136A73001F6F28 /* CheckBox */,
+			);
+			name = DashboardScreen;
+			sourceTree = "<group>";
+		};
+		55CBE5E41724687300222D11 /* AddWorkoutScreen */ = {
+			isa = PBXGroup;
+			children = (
+				556C62CE170BEB6C00BAD0A8 /* log highlighted.png */,
+				551343C617136951001F6F28 /* Weekly Workouts */,
+			);
+			name = AddWorkoutScreen;
+			sourceTree = "<group>";
+		};
+		55CBE5E51724687E00222D11 /* MotivationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				556C62D2170BEB7A00BAD0A8 /* motivate highlighted.png */,
+				55EA6EBC170BE86B00ADADEB /* Motivation */,
+			);
+			name = MotivationScreen;
+			sourceTree = "<group>";
+		};
+		55CBE5E61724689000222D11 /* GoalScreen */ = {
+			isa = PBXGroup;
+			children = (
+				556C62C6170BEB1B00BAD0A8 /* goals highlighted.png */,
+				556C62C4170BEB1000BAD0A8 /* boxing.tiff */,
+				556C62E0170BEB9D00BAD0A8 /* Weight Lost Chart.png */,
+				556C62E2170BEBA500BAD0A8 /* Weight Machine.tiff */,
+				556C62E3170BEBA500BAD0A8 /* Weights.tiff */,
+			);
+			name = GoalScreen;
+			sourceTree = "<group>";
+		};
+		55CBE5E71724689600222D11 /* MoreScreen */ = {
+			isa = PBXGroup;
+			children = (
+				55EA6EB9170BE86B00ADADEB /* more highlighted.png */,
+				556C62DA170BEB9700BAD0A8 /* twitter-bird-blue-on-white.png */,
+				55EA6F41170BE86B00ADADEB /* twitter-bird-white-on-blue.png */,
+				55EA6EB6170BE86B00ADADEB /* ICON - Facebook.jpg */,
+				55EA6EB0170BE86B00ADADEB /* facebook_twitter_icons.png */,
+				556C62DB170BEB9700BAD0A8 /* twitter-bird-light-bgs.png */,
+			);
+			name = MoreScreen;
+			sourceTree = "<group>";
+		};
 		55EA6EAA170BE86B00ADADEB /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				551343C4171365DE001F6F28 /* Default-568h@2x.png */,
-				55EA6EB0170BE86B00ADADEB /* facebook_twitter_icons.png */,
-				556C62C6170BEB1B00BAD0A8 /* goals highlighted.png */,
-				556C62C4170BEB1000BAD0A8 /* boxing.tiff */,
-				55EA6EB4170BE86B00ADADEB /* hermuscle icon black slogan.jpg */,
-				55EA6EB5170BE86B00ADADEB /* hermuscle icon.jpg */,
-				55EA6EB6170BE86B00ADADEB /* ICON - Facebook.jpg */,
-				556C62CE170BEB6C00BAD0A8 /* log highlighted.png */,
-				55EA6EB9170BE86B00ADADEB /* more highlighted.png */,
-				556C62D2170BEB7A00BAD0A8 /* motivate highlighted.png */,
 				55EA6F38170BE86B00ADADEB /* Muscle 114 114.png */,
+				559863B8174044B800BBA65C /* action-eating.png */,
+				559863B9174044B800BBA65C /* action-location.png */,
+				559863C0174044E800BBA65C /* facebook.png */,
+				559863C1174044E800BBA65C /* Icon-72.png */,
+				559863C2174044E800BBA65C /* Icon-72@2x.png */,
+				559863C4174044E800BBA65C /* Icon@2x.png */,
+				559863BA174044B800BBA65C /* action-people.png */,
+				559863BB174044B800BBA65C /* action-photo.png */,
 				55EA6F39170BE86B00ADADEB /* Muscle 57 57.png */,
-				55EA6F3A170BE86B00ADADEB /* Muscle.png */,
-				55EA6F3C170BE86B00ADADEB /* my day highlighted.png */,
-				556C62E2170BEBA500BAD0A8 /* Weight Machine.tiff */,
-				556C62E3170BEBA500BAD0A8 /* Weights.tiff */,
-				556C62E0170BEB9D00BAD0A8 /* Weight Lost Chart.png */,
-				55EA6F41170BE86B00ADADEB /* twitter-bird-white-on-blue.png */,
-				556C62D8170BEB9100BAD0A8 /* tortoise_hare02.gif */,
-				556C62DA170BEB9700BAD0A8 /* twitter-bird-blue-on-white.png */,
-				556C62DB170BEB9700BAD0A8 /* twitter-bird-light-bgs.png */,
-				551343C717136A73001F6F28 /* CheckBox */,
-				551343C617136951001F6F28 /* Weekly Workouts */,
-				55EA6EBC170BE86B00ADADEB /* Motivation */,
+				55CBE5E71724689600222D11 /* MoreScreen */,
+				55CBE5E11724684100222D11 /* ViewController */,
+				55CBE5E21724684D00222D11 /* WelcomeScreen */,
+				55CBE5E61724689000222D11 /* GoalScreen */,
+				55CBE5E51724687E00222D11 /* MotivationScreen */,
+				55CBE5E41724687300222D11 /* AddWorkoutScreen */,
+				55CBE5E31724686200222D11 /* DashboardScreen */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -488,6 +610,20 @@
 				556C62ED170BEC8600BAD0A8 /* icon.png in Resources */,
 				551343C317135FC7001F6F28 /* week1.pdf in Resources */,
 				551343C5171365DE001F6F28 /* Default-568h@2x.png in Resources */,
+				55CBE5EC17246BB700222D11 /* FB-logIn-Icon-72.png in Resources */,
+				55CBE5ED17246BB700222D11 /* FB-logIn-Icon-72@2x.png in Resources */,
+				55CBE5EE17246BB700222D11 /* FB-logIn-Icon.png in Resources */,
+				55CBE5EF17246BB700222D11 /* FB-lobIn-Icon@2x.png in Resources */,
+				559863BC174044B800BBA65C /* action-eating.png in Resources */,
+				559863BD174044B800BBA65C /* action-location.png in Resources */,
+				559863BE174044B800BBA65C /* action-people.png in Resources */,
+				559863BF174044B800BBA65C /* action-photo.png in Resources */,
+				559863C5174044E800BBA65C /* facebook.png in Resources */,
+				559863C6174044E800BBA65C /* Icon-72.png in Resources */,
+				559863C7174044E800BBA65C /* Icon-72@2x.png in Resources */,
+				559863C9174044E800BBA65C /* Icon@2x.png in Resources */,
+				559863D21740518B00BBA65C /* FBUserSettingsViewResources.bundle in Resources */,
+				559863D31740518B00BBA65C /* FacebookSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,9 +727,18 @@
 		25159869169DF2E60025FBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HerMuscle/HerMuscle-Prefix.pch";
 				INFOPLIST_FILE = "HerMuscle/HerMuscle-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../facebook-ios-sdk/build/FacebookSDK.framework/Versions/A\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -602,9 +747,18 @@
 		2515986A169DF2E60025FBFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HerMuscle/HerMuscle-Prefix.pch";
 				INFOPLIST_FILE = "HerMuscle/HerMuscle-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../facebook-ios-sdk/build/FacebookSDK.framework/Versions/A\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

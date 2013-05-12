@@ -44,16 +44,17 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="HER MUSCLE!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hKq-yW-GGM">
-                                <rect key="frame" x="30" y="215" width="250" height="54"/>
+                                <rect key="frame" x="30" y="177" width="250" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <color key="textColor" red="0.13725490200000001" green="0.1960784314" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Congratulations! You are now on your way to a leaner and more muscular you. Let's get started!" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kym-Ku-DT0">
-                                <rect key="frame" x="30" y="264" width="250" height="61"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kym-Ku-DT0">
+                                <rect key="frame" x="30" y="228" width="250" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Congratulations! You are now on your way to a leaner and more muscular you. Let's get started! To get started, log in through Facebook.</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -65,35 +66,8 @@
                                 <color key="textColor" red="0.67219387760000004" green="0.67219387760000004" blue="0.67219387760000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wVr-RJ-TLc">
-                                <rect key="frame" x="30" y="334" width="112" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal" title="I'm a New User">
-                                    <color key="titleColor" red="0.13725490200000001" green="0.1960784314" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="DLv-EJ-EXJ" kind="modal" id="QDK-3f-fc2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="F4C-Y6-tGH">
-                                <rect key="frame" x="168" y="334" width="112" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal" title="I Have an Account">
-                                    <color key="titleColor" red="0.13725490200000001" green="0.1960784314" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Muscle.png" id="hJd-cU-Zqc">
-                                <rect key="frame" x="95" y="92" width="121" height="124"/>
+                                <rect key="frame" x="95" y="54" width="121" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="YPX-ly-f0O">
@@ -105,9 +79,17 @@
                                     <navigationItem title="Welcome to..." id="kMI-4k-9zu"/>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" id="gTV-7c-65B" customClass="FBLoginView">
+                                <rect key="frame" x="64" y="331" width="183" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.89019607840000003" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="FBLoginView" destination="gTV-7c-65B" id="7j1-Sn-bdP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tpv-Yj-vhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -730,6 +712,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="OpenMail" destination="Uan-Wo-GFb" eventType="touchUpInside" id="ITP-XS-glh"/>
                                     <action selector="OpenMail:" destination="Uan-Wo-GFb" eventType="touchUpInside" id="gma-l0-ZNU"/>
                                 </connections>
                             </button>
@@ -1151,7 +1134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UcB-Rn-k0a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="482" y="646"/>
+            <point key="canvasLocation" x="713" y="638"/>
         </scene>
     </scenes>
     <resources>
@@ -1204,12 +1187,18 @@
                 <relationship kind="outlet" name="stepperValueLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
+        <class className="FBLoginView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FBLoginView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
         <class className="MoreScreen" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MoreScreen.h"/>
             <relationships>
                 <relationship kind="action" name="AboutAlert:"/>
                 <relationship kind="action" name="FacebookAlert:"/>
-                <relationship kind="action" name="OpenMail:"/>
+                <relationship kind="action" name="OpenMail"/>
                 <relationship kind="action" name="TwitterAlert:"/>
             </relationships>
         </class>
@@ -1226,7 +1215,7 @@
         <class className="WelcomeScreen" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WelcomeScreen.h"/>
             <relationships>
-                <relationship kind="outlet" name="signInWithTwitterOrFacebook" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="FBLoginView" candidateClass="FBLoginView"/>
             </relationships>
         </class>
     </classes>
@@ -1236,10 +1225,10 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="1Cg-f5-kf0"/>
-        <segue reference="tH5-pW-pKP"/>
-        <segue reference="lAP-bJ-NDb"/>
+        <segue reference="aof-Uk-JkC"/>
         <segue reference="wqD-0x-mRN"/>
+        <segue reference="lAP-bJ-NDb"/>
         <segue reference="GiM-Wc-WRv"/>
+        <segue reference="tH5-pW-pKP"/>
     </inferredMetricsTieBreakers>
 </document>
